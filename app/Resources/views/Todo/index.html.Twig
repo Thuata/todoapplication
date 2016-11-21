@@ -1,0 +1,12 @@
+{% extends layout.html.twig %}
+
+{% block content %}
+    <h1>
+        Welcome on todo application
+    </h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url('create_list') }}">Create a list</a></li>
+        </ul>
+    </nav>
+{% endblock %}
